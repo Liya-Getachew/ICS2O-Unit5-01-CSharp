@@ -21,14 +21,14 @@ class Program
         Console.Write("insert guess here: ");
         valueFromInput = Convert.ToInt32(Console.ReadLine());
 
-        if (valueFromInput == randomNumber) 
+        if (valueFromInput == randomNumber)
         {
-        Console.WriteLine("You'reeee....RIGHT! The answer was " + randomNumber + ". ");
+          Console.WriteLine("You'reeee....RIGHT! The answer was " + randomNumber + ". ");
         }
 
         if (valueFromInput != randomNumber)
         {
-        Console.WriteLine("You'reeee....WRONG! Try again.");
+          Console.WriteLine("You'reeee....WRONG! Try again.");
         }
 
         Console.WriteLine("\nDone.");
