@@ -23,12 +23,12 @@ class Program
 
         if (valueFromInput == randomNumber)
         {
-          Console.WriteLine("You'reeee....RIGHT! The answer was " + randomNumber + ". ");
+         Console.WriteLine("You'reeee....RIGHT! The answer was " + randomNumber + ". ");
         }
 
         if (valueFromInput != randomNumber)
         {
-          Console.WriteLine("You'reeee....WRONG! Try again.");
+         Console.WriteLine("You'reeee....WRONG! Try again.");
         }
 
         Console.WriteLine("\nDone.");
